@@ -1,0 +1,86 @@
+body {
+    background: url(/img/40857865-fondo-abstracto-tecnología-vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+i {
+    color: black;
+}
+
+header {
+    background-color: #63118d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+}
+
+div {
+    align-items: center;
+}
+
+div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+div ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+div ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-container label, .form-container input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
